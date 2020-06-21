@@ -13,7 +13,7 @@ Já o protocolo UDP não é orientado a conexão, é um protocolo um pouco mais 
 Aplicação UDP
 Para o funcionamento da Aplicação serão criadas duas classes, uma delas será o Servidor UDP que ficará Listening em uma determinada porta, e um Cliente para envio de mensagem
 
-//CLASSE UDPServer
+//CLASSE UDPServer//
 
 import java.io.*;
 import java.net.*;
@@ -59,7 +59,7 @@ class UDPServer {
 	}
 }
 
-// Classe UDPCliente
+// Classe UDPCliente//
 
 import java.io.*;
 import java.net.*;
@@ -108,7 +108,7 @@ Aplicação TCP
 
 Para a aplicação TCP serão utilizados os mesmos fundamentos da aplicação UDP, com a criação de um cliente e um servidor.
 
-// Classe TCPServer
+// Classe TCPServer//
 
 import java.io.*; 
 import java.net.*; 
@@ -142,7 +142,7 @@ class TCPServer {
 	 } 
 }
 
-//Classe TCPCliente
+//Classe TCPCliente//
 
 import java.io.*;
 import java.net.*;
